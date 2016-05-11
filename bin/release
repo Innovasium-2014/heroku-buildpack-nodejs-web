@@ -4,5 +4,5 @@
 cat << EOF
 addons: []
 default_process_types:
-  web: sh -c 'cd ./Console/ && node server.js'
+  web: sh -c 'cd ./Web/ && node server.js'
 EOF
